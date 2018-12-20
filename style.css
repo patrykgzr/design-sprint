@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+body {
+  
+    background-color: #d0c6e9;
+      font-family: 'Source Sans Pro', sans-serif;
+
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.register {
+    font-size: 0.8em;
+    text-decoration:none ;
+    color:#000;
+}
+.register2 {
+    font-size: 1em;
+    margin-top: 2em;
+    text-decoration:underline;
+    text-align: center;
+    color:#fff;
+}
+.container {
+    display: grid;
+    background-color: #ea4d44;
+    width: 20em;
+    display: inline-block;
+   margin-top: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4em;
+    padding-bottom: 1em;
+
+  }
+.container div{
+    align-content: center;
+    text-align: center;
+  }
+.header {
+    width:100%;
+    background-color: #5CC9E6;
+    border-radius: 1em;
+
+    }
+.bell {
+    width: 2em;
+    float: right;
+    margin-right: 0.5em;
+}
+textarea {
+    background-color:center center no-repeat; /* This ruins default border */
+    border-radius: 0.5em 1em 1em 0.5em;
+    width: 12em;
+
+}
+.txt {
+    padding-right: 2em;
+}
+.user {
+    width: 1.2em;
+    padding-right: 0.4em;
+}
+.password {
+    width: 1em;
+    padding-right: 0.5em;
+}
+.logo{
+    padding:3em 0em 1em 0em;
+    width: 12em;
+}
+.loging {
+
+}
+.arrow {
+    width:3em;
+    position: absolute;
+}
+
+.finger{
+    background-color: #fff;
+    border-radius: 1.4em 1.4em 4em 4em;
+    width: 5em;
+}
+
+.title {
+    font-size: 2em;
+}
+
+h2, h3{
+    text-align: center;
+    font-size: 3em;
+}
+.a {
+    background-color: #5CC9E6;
+    font-size: 2em;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+.b {
+
+}
+.c {
+
+}
+.d {
+
+}
+.e {
+
+}
+
+
+
+.login :hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.check a {
+      font-size: 1em;
+    color:#000;
+  color: white;
+}
+
+.g {
+    width:50%;
+}
+
+
+.rememberme {
+    color: #000;
+    font-size: 0.8em;
+    padding: 0.5em 6em 1em 0em;
+    
+
+}
+.checkmark {
+        color: #000;
+
+}
+input[type="checkbox" i] {
+    margin: 0em 0em 0em 0em;
+}
+.

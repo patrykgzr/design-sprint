@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+body {
+  margin-top: 1em;
+    background-color: #d0c6e9;
+      font-family: 'Source Sans Pro', 'sans-serif';
+    text-align: center;
+}
+.container {
+    display: grid;
+    width: 20em;
+    display: inline-block;
+
+    border-radius: 0.4em;
+    padding-bottom: 1em;
+  }
+.container div{
+    align-content: center;
+    text-align: center;
+  }
+.header {
+    display: inline-block;
+    width:20em;
+    background-color: #ea4d44;
+    padding: 0em 0em 0.3em 0em;
+    border-radius: 0.3em;
+       box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.header2 {
+    display: inline-block;
+    width:20em;
+    background-color: #ea4d44;
+    padding: 0em 0em 0.3em 0em;
+     margin: 1em 0em 0em 0em;
+    border-radius: 0.3em;
+       box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.titleportfolio {
+    font-size: 2em;
+}
+
+.middle {
+   display: inline-block;
+    background-color: #ea4d44;
+    width: 20em;
+    margin-top:0.5em;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4em;
+    padding-bottom: 1em;
+  }
+.footer {
+    display: inline-block;
+    background-color: #ea4d44;
+    width: 20em;
+    margin-top:0.3em;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4em;
+    
+
+    }
+a {
+    text-decoration: none;
+    color: black;
+}
+.register {
+    font-size: 0.8em;
+    text-decoration:none ;
+    color:#000;
+}
+.register2 {
+    font-size: 1em;
+    margin-top: 2em;
+    text-decoration:underline;
+    text-align: center;
+    color:#fff;
+}
+
+
+
+.bell {
+    width: 2em;
+    padding-top:0.2em;
+    float: right;
+    margin-right: 0.5em;
+}
+
+h4 {
+    margin: 0em;
+}
+.header h4 {
+  font-size: 1em;
+    padding: 0em 0em 0.5em 0em;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+}
+
+.title {
+    font-size: 2em;
+
+}
+
+textarea {
+    background-color:center center no-repeat; /* This ruins default border */
+    border-radius: 0.5em 1em 1em 0.5em;
+
+}
+.txt {
+    padding-right: 2em;
+}
+.user {
+    width: 1.2em;
+    padding-right: 0.4em;
+}
+.password {
+    width: 1em;
+    padding-right: 0.5em;
+}
+.logo{
+    padding:3em 0em 2em 0em;
+    width: 18em;
+}
+.loging {
+
+}
+.arrow {
+    width:2em;
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+.finger{
+    background-color: #fff;
+    border-radius: 1.4em 1.4em 4em 4em;
+    width: 5em;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 3em;
+}
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+.a {
+    background-color: #5CC9E6;
+    font-size: 2em;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+.b {
+
+}
+.c {
+
+}
+.d {
+
+}
+.e {
+
+}
+
+
+
+.login :hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.check a {
+      font-size: 1em;
+    color:#000;
+  color: white;
+}
+
+.g {
+    width:50%;
+}
+
+
+.rememberme {
+    color: #000;
+    font-size: 0.9em;
+    padding: 0.4em 9.5em 1em 0em;
+    
+
+}
+.checkmark {
+        color: #000;
+
+}
+input[type="checkbox" i] {
+    margin: 0em 0em 0em 0em;
+}
+
+
+.i {
+    width:20em;
+}
+
+.profile {
+    padding: 2em 0em 0em 2em;
+       width:7em;
+    float:left;
+
+                       
+}
+.info {
+    padding: 2em 2em 0em 0em;
+       width:7em;
+    float:right;     
+
+    
+}
+.schedule {
+      padding: 2em 0em 0em 2em;
+       width:7em;
+    float:left;     
+}
+.chat {
+     padding: 2em 2em 0em 0em;
+       width:7em;
+    float:right;   
+
+}
+
+
+
+
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  width: 2em;
+  float: left;
+  outline: none;
+margin: 0.3em 0em 0em 0.5em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.menu {
+  display: none;
+  overflow: hidden;
+    background-color: #ea4d44;
+    width: 20em;
+  
+    border-radius: 0.4em;
+
+
+}
